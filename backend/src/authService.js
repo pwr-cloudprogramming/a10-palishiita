@@ -7,7 +7,7 @@ const cognito = new CognitoIdentityServiceProvider({
 
 const signUp = async (email, password) => {
   const params = {
-    ClientId: '6v0dm3t0idnsrjjttb4nep7d0b',
+    ClientId: '5em51fivqp96eqrmegkgllfvv3',
     Username: email,
     Password: password,
     UserAttributes: [
@@ -29,7 +29,7 @@ const signUp = async (email, password) => {
 const signIn = async (email, password) => {
   const params = {
     AuthFlow: 'USER_PASSWORD_AUTH',
-    ClientId: '6v0dm3t0idnsrjjttb4nep7d0b',
+    ClientId: '5em51fivqp96eqrmegkgllfvv3',
     AuthParameters: {
       USERNAME: email,
       PASSWORD: password,
@@ -46,7 +46,7 @@ const signIn = async (email, password) => {
 
 const confirmSignUp = async (email, code) => {
     const params = {
-      ClientId: '6v0dm3t0idnsrjjttb4nep7d0b',
+      ClientId: '5em51fivqp96eqrmegkgllfvv3',
       Username: email,
       ConfirmationCode: code,
     };

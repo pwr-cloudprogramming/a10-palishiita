@@ -1,20 +1,20 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Client} from '@stomp/stompjs'
-import { useLocation, Navigate } from 'react-router-dom';
+import { useLocation} from 'react-router-dom';
 import axios from './axiosConfig.js';
-import jwtDecode from 'jwt-decode';
+//import jwtDecode from 'jwt-decode';
 const url = 'http://localhost:8080';
 
 
-function parseJwt (token) {
-    var base64Url = token.split('.')[1];
-    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
-    var jsonPayload = decodeURIComponent(window.atob(base64).split('').map(function(c) {
-        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-    }).join(''));
-    return JSON.parse(jsonPayload);
-}
+// function parseJwt (token) {
+//     var base64Url = token.split('.')[1];
+//     var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+//     var jsonPayload = decodeURIComponent(window.atob(base64).split('').map(function(c) {
+//         return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+//     }).join(''));
+//     return JSON.parse(jsonPayload);
+// }
 
 function PlayPage() {
 

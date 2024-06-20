@@ -1,4 +1,4 @@
-# README
+# AWS Cognito, EC2 Service
 
 ## Configured AWS Services
 

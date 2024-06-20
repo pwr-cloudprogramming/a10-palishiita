@@ -79,3 +79,33 @@ I was pleasantly surprised by how powerful and flexible Terraform is in managing
 
 
 ## Application running
+
+### account-confirmation.png
+![account-confirmation](./images/account-confirmation.png)
+
+### email-verification.png
+![email-verification](./images/email-verification.png)
+
+### Game-Running.png
+![Game-Running](./images/Game-Running.png)
+
+### message-confirmation.png
+![message-confirmation](./images/message-confirmation.png)
+
+### Screenshot 2024-06-20 141853.png
+![Screenshot 2024-06-20 141853](./images/Screenshot 2024-06-20 141853.png)
+
+### SignIn.png
+![SignIn](./images/SignIn.png)
+
+### SignUp.png
+![SignUp](./images/SignUp.png)
+
+### Terraform-Apply.png
+![Terraform-Apply](./images/Terraform-Apply.png)
+
+### user-pool.png
+![user-pool](./images/user-pool.png)
+
+### users.png
+![users](./images/users.png)
